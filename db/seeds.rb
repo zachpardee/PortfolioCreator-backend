@@ -11,11 +11,11 @@ Project.destroy_all
 Technology.destroy_all
 User.destroy_all
 
-User.create(first: "Zach", last: "Pardee", github: "www.github.com", linkedin:"www.linkedin.com")
+zach = User.create(first: "Zach", last: "Pardee", github: "www.github.com", linkedin:"www.linkedin.com")
 User.create(first: "Johnny", last: "AppleSeed", github: "www.github.com", linkedin:"www.linkedin.com")
 User.create(first: "John", last: "Elway", github: "www.github.com", linkedin:"www.linkedin.com")
 
-Project.create(title:"Project Title" , description:"This is a project Description", image:"someimagelink.com", githublink:"github.com", user_id: 5)
+Project.create(title:"Project Title" , description:"This is a project Description", image:"someimagelink.com", githublink:"github.com", user_id: zach.id)
 
-Technology.create(name: "Ruby", icon: "https://cdn.iconscout.com/icon/free/png-256/ruby-46-1175101.png", user_id: 5)
+Technology.create(name: "Ruby", icon: "https://cdn.iconscout.com/icon/free/png-256/ruby-46-1175101.png", user_id: zach.id)
 
