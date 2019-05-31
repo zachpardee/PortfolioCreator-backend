@@ -16,8 +16,9 @@ User.create(first: "Johnny", last: "AppleSeed", github: "www.github.com", linked
 User.create(first: "John", last: "Elway", github: "www.github.com", linkedin:"www.linkedin.com")
 
 Project.create(title:"Porfolio Creator" , description:"Create a Developer Portfolio from a template!", image:"http://www.illuminationworksllc.com/wp-content/uploads/2017/04/ProjectManagement-1.jpg", githublink:"https://github.com/zachpardee/PortfolioCreator-frontend", user_id: zach.id)
-Project.create(title:"GameLib" , description:"Manage your Video Game Library", image:"http://www.illuminationworksllc.com/wp-content/uploads/2017/04/ProjectManagement-1.jpg", githublink:"https://github.com/zachpardee/gamelib-project", user_id: zach.id)
-Project.create(title:"Recipe Manager" , description:"Create and manage your own kitchen recipes!", image:"http://www.illuminationworksllc.com/wp-content/uploads/2017/04/ProjectManagement-1.jpg", githublink:"https://github.com/zachpardee/Mod2-Project", user_id: zach.id)
+Project.create(title:"GameLib" , description:"Manage your Video Game Library", image:"https://i.kinja-img.com/gawker-media/image/upload/s--I2j2kwUQ--/c_scale,f_auto,fl_progressive,q_80,w_800/1359563471926476945.jpg", githublink:"https://github.com/zachpardee/gamelib-project", user_id: zach.id)
+Project.create(title:"Recipe Manager" , description:"Create and manage your own kitchen recipes!", image:"https://www.irishtimes.com/polopoly_fs/1.3849450.1554378707!/image/image.jpg_gen/derivatives/box_620_330/image.jpg", githublink:"https://github.com/zachpardee/Mod2-Project", user_id: zach.id)
+Project.create(title:"GoT Fantasy Deadpool" , description:"Fantasy Football, Game of Thrones Style", image:"https://resize.indiatvnews.com/en/centered/newbucket/715_431/2017/07/got-1500279769.jpg", githublink:"https://github.com/zachpardee/FinalProject", user_id: zach.id)
 
 Technology.create(name: "Ruby", icon: "https://cdn.iconscout.com/icon/free/png-256/ruby-46-1175101.png", user_id: zach.id)
 Technology.create(name: "Rails", icon: "https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/ruby-on-rails-128.png", user_id: zach.id)
